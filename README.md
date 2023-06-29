@@ -1,4 +1,4 @@
-# Pune_Metro_Route_Traversal
+# Pune_Metro_Route_Traversal_Application
 
 This is Metro Route Traversal System implemented in C programming language. It accepts Source station and destination station from user and assists him with following:
 
@@ -16,3 +16,10 @@ __Features__
 5.Gives shortest path with minumum distance(in km) using Dijkstra's Algorithm.
 
 6.Calculates fare required for the journey.
+
+__Data Structures Used:__
+1.Graphs 
+
+2.Arrays
+
+3.Stack
