@@ -28,6 +28,11 @@ To use this application, follow these steps:
     ```shell
     git clone https://github.com/nachiket-15/Pune_Metro_Route_Traversal.git
     ```
+### Going to Desired Directory
+
+   ```shell
+   cd Pune_Metro_Route_Traversal/DSA_Project_\(M\)/
+   ```
 
 ### Compiling the Code
 
@@ -38,13 +43,6 @@ To use this application, follow these steps:
     ```shell
     gcc -o myprogram DSA_Project_final.c check_station.c creategraph.c display_time.c station.c station_not_found.c
     ```
-
-### Going to Desired Directory
-
-   ```shell
-   cd Pune_Metro_Route_Traversal/DSA_Project_\(M\)/
-   ```
-
 
 ### Running the Application
 
