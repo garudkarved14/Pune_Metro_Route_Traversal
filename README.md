@@ -35,6 +35,12 @@ To use this application, follow these steps:
 
    ```shell
    gcc -o myprogram DSA_Project_final.c check_station.c creategraph.c display_time.c station.c station_not_found.c
+
+## Going to Desired Directory 
+      ```shell
+      cd Pune_Metro_Route_Traversal/DSA_Project_\(M\)/
+
+
 ## Running the Application
 
 After successfully compiling the source code, you can run the application by executing the following command in your terminal:
