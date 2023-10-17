@@ -24,8 +24,10 @@ To use this application, follow these steps:
 
 1. Open your terminal or command prompt.
 2. Use the following command to clone the repository to your local machine:
-   ```shell
-   git clone https://github.com/nachiket-15/Pune_Metro_Route_Traversal.git
+
+    ```shell
+    git clone https://github.com/nachiket-15/Pune_Metro_Route_Traversal.git
+    ```
 
 ### Compiling the Code
 
@@ -33,15 +35,18 @@ To use this application, follow these steps:
 
 2. Use a C compiler, such as GCC, to compile the source code. For example, you can use the following command to compile the necessary source files:
 
-   ```shell
-   gcc -o myprogram DSA_Project_final.c check_station.c creategraph.c display_time.c station.c station_not_found.c
+    ```shell
+    gcc -o myprogram DSA_Project_final.c check_station.c creategraph.c display_time.c station.c station_not_found.c
+    ```
 
-### Going to Desired Directory 
+### Going to Desired Directory
+
    ```shell
    cd Pune_Metro_Route_Traversal/DSA_Project_\(M\)/
+   ```
 
 
-## Running the Application
+### Running the Application
 
 After successfully compiling the source code, you can run the application by executing the following command in your terminal:
 
