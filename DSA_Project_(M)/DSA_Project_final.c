@@ -21,27 +21,15 @@ char *color[100];
 float adj[MAX][MAX];
 float dist[MAX];
 
+void Give_color_to_station() {
+    char *color_names[] = {"Purple", "Aqua", "Yellow", "Green"};
 
-void Give_color_to_station()
-{
-    for (int i = 0; i <= 19; i++)
-    {
-        color[i] = "Purple";
-    }
+    int ranges[][2] = {{0, 19}, {20, 48}, {49, 68}, {69, 90}};
 
-    for (int i = 20; i <= 48; i++)
-    {
-        color[i] = "Aqua";
-    }
-
-    for (int i = 49; i <= 68; i++)
-    {
-        color[i] = "Yellow";
-    }
-
-    for (int i = 69; i <= 90; i++)
-    {
-        color[i] = "Green";
+    for (int color_index = 0; color_index < sizeof(ranges) / sizeof(ranges[0]); color_index++) {
+        for (int i = ranges[color_index][0]; i <= ranges[color_index][1]; i++) {
+            color[i] = color_names[color_index];
+        }
     }
 }
 
